@@ -1,0 +1,49 @@
+.navbar-dark .navbar-brand { 
+  color: #72fa34;
+}
+
+#a{
+  padding-left: : 20px;
+}
+
+.container1
+{  
+  margin:auto;
+  width: 100%;  
+  height: auto;
+  
+}
+
+#hidden1{background-color:#F4CEC4;
+	color: white;
+	
+	display: none;
+	position: fixed;
+	bottom: 40%;
+	right: 35%;
+    width:35%;
+ 
+    }
+    #hidden2{background-color:#F4CEC4;
+	color: white;
+	
+	display: none;
+	position: fixed;
+	bottom: 40%;
+	right: 45%;
+    width:15%;
+ 
+    }
+#span{
+	float: right;
+	top:78%;
+    left:75%;
+    width: 10px;
+
+}
+#save{
+	width: 100px;
+	margin-left:  150px; 
+	margin-right:  150px; 
+	
+}

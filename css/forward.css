@@ -1,0 +1,121 @@
+.navbar-dark .navbar-brand { 
+  color: #72fa34;
+}
+
+#a{
+  padding-left: : 20px;
+}
+
+.fbox{
+  margin:auto;
+  width: 100%;
+}
+.show{
+  margin: auto;
+
+}
+
+ th {
+    background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: normal;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 10px 20px;
+  }
+   th:hover{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  box-shadow: 0 14px 28px;
+  }
+  td:hover{
+     border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+ 
+  box-shadow: 0 14px 28px;
+  }
+  @keyframes example {
+    0%   {border-left: 2px;}
+    25%  {border-left: 3px;}
+    50%  {border-left: 4px ;}
+    100% {border-left: 5px ;}
+}
+  .button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+}
+.btn {
+  background-color: rgb(238, 238, 238);
+  color: black; 
+  }
+.btn:hover {
+ border: 2px solid #4CAF50;
+ background-color: #e7e7e7;
+ color:red;
+}
+#t{background-color:#F4CEC4;
+  color: white;
+  
+  display: none;
+  position: fixed;
+    width:700px;
+    height:150px;
+    top:40%;
+    left:25%;
+    margin:auto;
+    overflow: auto;
+    }
+
+    .close {
+  color: #aaaaaa;
+  font-size: 28px;
+  height:100px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  cursor: pointer;
+}
+  
+#hidden{background-color:#F4CEC4;
+     color: white;
+    display: none;
+    width:875px;
+    height:auto;
+    overflow: auto;
+    margin:auto;
+    padding: auto;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 20%;
+    border: 2px solid ;
+    }
+
+#fo{
+  width: 100px;
+  margin-left:  150px; 
+  margin-right:  150px; 
+  position: inherit;
+}
+#container{
+  width: 100%;
+  height: 100%;
+ 
+}
+
